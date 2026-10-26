@@ -40,6 +40,8 @@ import typescript from './tech/typescript.png';
 import graphql from './tech/graphql.png';
 import postgresql from './tech/postgresql.png';
 import nextjs from './tech/Nextjs.png';
+import python from './tech/python.png';
+import threejs from './tech/threejs.png';
 
 import coverhunt from './company/coverhunt.png';
 import dcc from './company/dcc.png';
@@ -87,6 +89,8 @@ export {
   nodejs,
   postgresql,
   nextjs,
+  python,
+  threejs,
   reactjs,
   redux,
   tailwind,

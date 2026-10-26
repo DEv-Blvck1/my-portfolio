@@ -4,6 +4,11 @@
 @tailwind components;
 @tailwind utilities;
 
+html, body {
+  overflow-x: hidden;
+  max-width: 100vw;
+}
+
 @font-face {
   font-family: 'Arenq';
   src: url('./fonts/arenq.otf');
@@ -94,11 +99,31 @@
 }
 
 .glassmorphism {
-  background: rgba(20, 20, 20, 0.7);
-  box-shadow: 0 8px 32px 0 rgba(133, 133, 133, 0.37);
-  backdrop-filter: blur(4px);
-  -webkit-backdrop-filter: blur(4px);
+  background: rgba(20, 20, 20, 0.65);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
   border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.hero-dark-layer {
+  clip-path: polygon(100% 45%, 100% 100%, 0 100%, 0 72%);
+  -webkit-clip-path: polygon(100% 45%, 100% 100%, 0 100%, 0 72%);
+  transition: clip-path 0.2s ease-out;
+}
+
+@media (min-width: 640px) {
+  .hero-dark-layer {
+    clip-path: polygon(75% 0, 100% 0, 100% 100%, 38% 100%);
+    -webkit-clip-path: polygon(75% 0, 100% 0, 100% 100%, 38% 100%);
+  }
+}
+
+@media (min-width: 1024px) {
+  .hero-dark-layer {
+    clip-path: polygon(77% 0, 100% 0, 100% 100%, 40% 100%);
+    -webkit-clip-path: polygon(77% 0, 100% 0, 100% 100%, 40% 100%);
+  }
 }
 
 .card-shadow {

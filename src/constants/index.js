@@ -16,6 +16,8 @@ import {
   docker,
   postgresql,
   nextjs,
+  python,
+  threejs,
   graphql,
   komikult,
   leaderboard,
@@ -46,7 +48,7 @@ export const navLinks = [
 
 const services = [
   {
-    title: 'Software Developer',
+    title: 'Software Engineer',
     icon: frontend,
   },
   // {
@@ -100,6 +102,14 @@ const technologies = [
     name: 'Next JS',
     icon: nextjs,
   },
+  {
+    name: 'Three JS',
+    icon: threejs,
+  },
+  {
+    name: 'Python',
+    icon: python,
+  },
   // {
   //   name: 'graphql',
   //   icon: graphql,
@@ -145,7 +155,7 @@ const experiences = [
     date: 'May 2024 - Nov 2024',
   },
   {
-    title: 'Software Developer',
+    title: 'Software Engineer',
     company_name: 'Avetium technologies',
     icon: dcc,
     iconBg: '#333333',
@@ -174,32 +184,32 @@ const projects = [
     ],
     image: komikult,
     repo: 'https://github.com/DEv-Blvck1/chopeasy',
-    demo: 'https://chopeasy-ng.vercel.app/',
+    demo: 'https://chopeazy.vercel.app/',
   },
-  {
-    id: 'project-2',
-    name: 'pocketledger',
-    description:
-      ' Income/expense tracker with category budget limits, overspend alerts, 7-month spending trend chart, and savings rate',
+  // {
+  //   id: 'project-2',
+  //   name: 'pocketledger',
+  //   description:
+  //     ' Income/expense tracker with category budget limits, overspend alerts, 7-month spending trend chart, and savings rate',
 
-    tags: [
-      {
-        name: 'react',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'restapi',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'scss',
-        color: 'pink-text-gradient',
-      },
-    ],
-    image: leaderboard,
-    repo: 'https://github.com/DEv-Blvck1/pocketledger',
-    demo: 'https://pocketledger-beta.vercel.app/',
-  },
+  //   tags: [
+  //     {
+  //       name: 'react',
+  //       color: 'blue-text-gradient',
+  //     },
+  //     {
+  //       name: 'restapi',
+  //       color: 'green-text-gradient',
+  //     },
+  //     {
+  //       name: 'scss',
+  //       color: 'pink-text-gradient',
+  //     },
+  //   ],
+  //   image: leaderboard,
+  //   repo: 'https://github.com/DEv-Blvck1/pocketledger',
+  //   demo: 'https://pocketledger-beta.vercel.app/',
+  // },
   {
     id: 'project-3',
     name: 'trustrent',
@@ -224,8 +234,8 @@ const projects = [
   },
   {
     id: 'project-4',
-    name: 'vitaltrack',
-    description: ` Consolidated health dashboard tracking calories, water, sleep, steps, mood, and heart rate with radial progress rings`,
+    name: 'Cleanloop',
+    description: ` CleanLoop digitizes and unifies the end-to-end commercial waste collection lifecycle for private waste concessionaires (LAWMA PSP operators), estate facility managers, field collection crews, and residential/commercial generators.`,
     tags: [
       {
         name: 'nextjs',
@@ -242,31 +252,31 @@ const projects = [
     ],
     image: movie,
     repo: 'https://github.com/DEv-Blvck1/vitaltrack',
-    demo: 'https://vitaltrack-ruby.vercel.app/',
+    demo: 'https://cleanedloop.vercel.app/',
   },
-  {
-    id: 'project-5',
-    name: 'Lawlah penner portfolio',
-    description:
-      'This is a demo concert website for a music festival called Nyeusi.',
-    tags: [
-      {
-        name: 'nextjs',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'supabase',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'css',
-        color: 'pink-text-gradient',
-      },
-    ],
-    image: nyeusi,
-    repo: 'https://github.com/DEv-Blvck1/A-writer-s-portfolio',
-    demo: 'https://lawlahpenner.vercel.app/',
-  },
+  // {
+  //   id: 'project-5',
+  //   name: 'Lawlah penner portfolio',
+  //   description:
+  //     'This is a demo concert website for a music festival called Nyeusi.',
+  //   tags: [
+  //     {
+  //       name: 'nextjs',
+  //       color: 'blue-text-gradient',
+  //     },
+  //     {
+  //       name: 'supabase',
+  //       color: 'green-text-gradient',
+  //     },
+  //     {
+  //       name: 'css',
+  //       color: 'pink-text-gradient',
+  //     },
+  //   ],
+  //   image: nyeusi,
+  //   repo: 'https://github.com/DEv-Blvck1/A-writer-s-portfolio',
+  //   demo: 'https://lawlahpenner.vercel.app/',
+  // },
 ];
 
 export { services, technologies, experiences, projects };
