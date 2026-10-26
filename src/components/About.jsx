@@ -34,7 +34,7 @@ const About = () => {
       <motion.p
         variants={fadeIn('', '', 0.1, 1)}
         className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]">
-        I’m Ogueri Joachim Kevin, A software Engineer dedicated to building modern, responsive and user-focused web applications. With a strong eye for design and a commitment to clean, efficient code, I specialize in transforming concepts into functional digital experiences. My expertise spans across HTML, CSS, JavaScript, typescript, redux, tailwind and frameworks like React and Next.js, enabling me to craft seamless interfaces that prioritize performance, accessibility and scalability.
+        I’m Ogueri Joachim Kevin, A software Engineer dedicated to building modern, responsive and user-focused web applications. With a strong eye for design and a commitment to clean, efficient code, I specialize in transforming concepts into functional digital experiences. My expertise spans across HTML, CSS, JavaScript, Node.js, typescript, Python, tailwind, Libraries like React & three.js, and also framework like Next.js, enabling me to craft seamless interfaces that prioritize performance, accessibility and scalability.
         <br /><br />
         Beyond coding, I value collaboration, clear communication and attention to detail, which help me deliver solutions that align with both user needs and business goals. I’m passionate about continuous learning, exploring new technologies and refining my skills to stay at the forefront of web development.
       </motion.p>
